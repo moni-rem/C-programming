@@ -2,6 +2,8 @@
 using namespace std;
 
 int main(){
+
+    //Declare variable value assigned 
     string studentID="PP12213";
     string studentname="23";
     int studentage=75;
@@ -9,13 +11,14 @@ int main(){
     string studentgender="male";
     int studentfee=12345;
 
-    cout<<"student ID"<<studentID<<endl;
-    cout<<"student name"<<studentname<<endl;
-    cout<<"student age"<<studentage<<endl;
-    cout<<"student grade"<<studentgrade<<endl;
-    cout<<"student gender"<<studentgender<<endl;
-    cout<<"student fee"<<studentfee<<endl;
+    cout<<"studentID "<<studentID<<endl;
+    cout<<"studentname "<<studentname<<endl;
+    cout<<"studentage "<<studentage<<endl;
+    cout<<"studentgrade "<<studentgrade<<endl;
+    cout<<"studentgender "<<studentgender<<endl;
+    cout<<"studentfee "<<studentfee<<endl;
 
+    //Declare default variable 
     string ID;
     string name;
     int age;
