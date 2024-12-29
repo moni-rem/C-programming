@@ -26,17 +26,27 @@ int main(){
     string gender;
     int fee;
 
-    cout<<"enter ID"<<endl;
+    cout<<"enter ID : "<<endl;
     cin>>ID;
-    cout<<"enter name"<<endl;
+    cout<<"enter name : "<<endl;
     cin>>name;
-    cout<<"enter age"<<endl;
+    cout<<"enter age : "<<endl;
     cin>>age;
-    cout<<"enter grade"<<endl;
+    cout<<"enter grade : "<<endl;
     cin>>grade;
-    cout<<"enter gender"<<endl;
+    cout<<"enter gender : "<<endl;
     cin>>gender;
-    cout<<"enter fee"<<endl;
+    cout<<"enter fee : "<<endl;
     cin>>fee;
 
+    cout<<"STUDENT INFORMATION BELOW : \n";
+    cout<<"Student ID: "<<ID<<endl;
+    cout<<"Student name: "<<name<<endl;
+    cout<<"Student age: "<<age<<endl;
+    cout<<"Student grade: "<<grade<<endl;
+    cout<<"Student gender: "<<grade<<endl;
+    cout<<"Student fee: "<<fee<<endl;
+
+    
+    return 0;
 }
