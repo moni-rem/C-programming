@@ -2,6 +2,10 @@
 using namespace std;
 
 int main(){
-    cout<<"My first Programming";
-    return 0;
+
+int length=20;
+int width=10;
+int sum = length * width;
+
+cout<<"sum = "<<sum;
 }
